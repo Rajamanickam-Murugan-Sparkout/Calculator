@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calculator.css">
+</head>
+<body>
+    <main class="calculator">
+            <input type="text" placeholder="0" id="display">
+        <div class="buttons">
+            <button value="AC" class="diff-color" id="clear">AC</button>
+            <button value="DEL" class="diff-color">DEL</button>
+            <button value="%" id="btn" class="diff-color">%</button>
+            <button value="/" id="btn" class="diff-color">/</button>
+
+            <button value="7" id="btn" class="color">7</button>
+            <button value="8" id="btn" class="color">8</button>
+            <button value="9" id="btn"  class="color">9</button>
+            <button value="*" id="btn"  class="diff-color size">*</button>
+
+            <button value="4" id="btn"  class="color">4</button>
+            <button value="5" id="btn"  class="color">5</button>
+            <button value="6"  id="btn" class="color">6</button>
+            <button value="-"  id="btn" class="diff-color size">-</button>
+
+            <button value="1"  id="btn" class="color">1</button>
+            <button value="2" id="btn"  class="color">2</button>
+            <button value="3" id="btn"  class="color">3</button>
+            <button value="+"  id="btn" class="diff-color size">+</button>
+
+            <button value="00" id="btn"  class="color">00</button>
+            <button value="0"  id="btn" class="color">0</button>
+            <button value="."  id="btn"  class="size color">.</button>
+            <button value="=" class="size sum" onclick="calculate()">=</button>
+        </div>
+    </main>
+    
+
+    <script src="./calculator.js"></script>
+</body>
+</html>
