@@ -51,7 +51,8 @@ input:focus{
     display: flex;
     justify-content: center;
     align-items: center;
-}
+    cursor: pointer;
+}  
 
 .diff-color{
     background-color: #8ecae6;
